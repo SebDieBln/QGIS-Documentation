@@ -174,12 +174,21 @@ The combo box shows atlas features name according to the expression set in the a
 Generation
 ----------
 
-The atlas generation can be done in different ways. For example, with :menuselection:`Atlas --> Print Atlas`, 
-you can directly print it. You can also create a PDF using :menuselection:`Atlas --> Export Atlas as PDF`: 
+As for simple compositions, an atlas can be generated in different ways (see :ref:`create-output` for more information).
+Instead of :menuselection:`Composer` menu, use :menuselection:`Atlas` menu tools or Atlas toolbar.
+
+This means that you can directly print your compositions with :menuselection:`Atlas --> Print Atlas`. 
+You can also create a PDF using :menuselection:`Atlas --> Export Atlas as PDF...`: 
 The user will be asked for a directory for saving all the generated PDF files (except if the 
-|checkbox| :guilabel:`Single file export when possible` has been selected).
-If you need to print just a page of the atlas, simply start the preview function, select the page 
-you need and click on :menuselection:`Composer --> Print` (or create a PDF).
+|checkbox| :guilabel:`Single file export when possible` has been selected. 
+In this case, you'll be prompted to give a filename).
+For each atlas feature, :menuselection:`Atlas --> Export Atlas as Images...` or :menuselection:`Atlas --> Export Atlas as SVG...`
+tool exports to images or SVG file format as many files as designed into a given folder . 
+
+.. tips::
+
+  If you need to print just the composition of a single feature of the atlas, simply start the preview function, 
+  select the feature from the preview list and click on :menuselection:`Composer --> Print` (or create a PDF).
 
 
 .. _Multiple_format_map_series_using_QGIS_2.6: http://sigsemgrilhetas.wordpress.com/2014/11/09/series-de-mapas-com-formatos-multiplos-em-qgis-2-6-parte-1-multiple-format-map-series-using-qgis-2-6-part-1
